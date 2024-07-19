@@ -11,4 +11,9 @@ public class WebflixController {
     public String getFlix(){
         return "Welcome to CI/CD demo of Webflix";
     }
+
+    @GetMapping("/index")
+    public String getIndex(){
+        return "Welcome to CI/CD demo of Index";
+    }
 }
