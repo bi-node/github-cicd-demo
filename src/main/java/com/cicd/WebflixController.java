@@ -9,7 +9,7 @@ public class WebflixController {
 
     @GetMapping("/home")
     public String getFlix(){
-        return "Welcome to  home";
+        return "Welcome to  home New";
     }
 
     @GetMapping("/index")
